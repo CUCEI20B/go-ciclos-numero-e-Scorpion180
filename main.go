@@ -11,10 +11,9 @@ func main() {
 
 	fmt.Scanln(&limite)
 	for i <= limite {
-		producto = producto + i
+		producto = producto * i
 		suma = suma + (1 / producto)
 		i = i + 1
 	}
 	fmt.Print(suma)
-
 }
